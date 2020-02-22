@@ -1,0 +1,31 @@
+body {
+  /* Remove spacing around the edges of the window applied by the browser's stylesheet */
+  margin: 0;
+}
+
+.container {
+  width: 80vw;
+  /* Automatically resize the height of the container to fit the content */
+  height: auto;
+  /* Never make the container less than 98% of the vertical height of the container */
+  min-height: 98vh;
+  border: 5px solid black;
+  /* Center Grid Container in Window */
+  margin: 0 auto;
+  /* Make the container a flexbox container */
+  display: flex;
+  /* Horizontal spacing and alignment */
+  justify-content: space-evenly;
+  /* Move content to the next line when it reaches the edge of the flex container */
+  flex-wrap: wrap;
+  /* Vertical spacing and alignment */
+  align-content: flex-start;
+}
+
+.item {
+  background-color: red;
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  font-size: 50px;
+}
