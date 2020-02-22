@@ -1,0 +1,5 @@
+.cage {
+  border: 1px dashed green;
+  /* width: 70vw; */
+  min-height: 20vh;
+}

@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Laila', Georgia, serif;
+  color: purple;
+  font-size: 48px;
+}
+
+div {
+  background-color: green;
+  margin-bottom: 10px;
+  height: 200px;
+  width: 100%;
+  font-size: 24px;
+  background-color: yellow;
+}
+
+.odd {
+  width: 70%;
+}
+
+.even {
+  font-family: campaign, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background-color: red;
+}
+
+#special {
+  font-size: 100px !important;
+}
+
+.cover {
+  background-color: gray;
+  width: 100vw;
+  height: 100vh;
+}
+
+.cover2 {
+  background-color: green;
+  z-index: 1;
+  position: relative;
+  top: -100;
+}

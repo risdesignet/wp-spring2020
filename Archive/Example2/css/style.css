@@ -1,0 +1,22 @@
+h1 {
+    color: green;
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+span {
+    /* color: rgb(244, 10, 45); */
+    color: #8BD1B7;
+    /* font-style: oblique; */
+}
+
+.emphasis {
+    font-style: italic;
+}
+
+.purple {
+    color: purple;
+}

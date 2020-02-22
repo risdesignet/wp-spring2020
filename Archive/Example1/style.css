@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Nunito');
+@import url("https://use.typekit.net/tri3crw.css");
+
+body {
+  font-family: 'Bitter', Georgia, serif;
+  color: black;
+}
+
+h1 {
+  font-family: century-gothic, sans-serif;
+  color: teal;
+}
+p {
+  font-family: 'Nunito', sans-serif;
+}
+
+.tall {
+  font-size: 48px;
+}
+
+.red {
+  color: red;
+  font-size: 6px;
+}

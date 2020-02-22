@@ -1,0 +1,14 @@
+.redBackground {
+    background-color: red;
+}
+.greenBackground {
+    background-color: green;
+}
+
+.bar {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: 1px solid black;
+}

@@ -1,0 +1,38 @@
+html {
+    font-size: 12px;
+}
+
+.grid-container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 20% auto 20%;
+    grid-template-areas:
+    "header header header header header"
+    "main main main main main"
+    "footer footer footer footer footer";
+}
+
+h2 {
+    /* justify-self: center;
+    align-self: center; */
+    place-self: center;
+    color: purple;
+    font-size: 4rem;
+    width: 100%;
+    min-width: 100px;
+    max-width: 600px;
+}
+h2:hover {
+    transform: scale(0.9, 0.9);
+}
+h2:nth-child(1) {
+    grid-area: header;
+}
+h2:nth-child(2) {
+    grid-area: main;
+}
+h2:nth-child(3) {
+    grid-area: footer;
+}

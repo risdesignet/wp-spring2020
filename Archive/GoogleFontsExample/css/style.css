@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+html {
+    font-size: 12px;
+}
+body {
+    /* This is my css comment */
+    /* background-color: #f785cf; */
+    font-family: 'Gugi', cursive;
+    font-size: 12px;
+    /* Remove space between body and browser window */
+    margin: 0;
+}
+
+h1 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 4em;
+    /* Negate User Agent Stylesheet */
+    margin-top: 0;
+    padding-top: 10vh;
+}
+p {
+    font-size: 4rem;
+}
+
+div {
+    font-size: 2em;
+}
+
+.cover {
+    width: 100vw;
+    height: 100vh;
+    background-color: seagreen;
+    text-align: center;
+}
