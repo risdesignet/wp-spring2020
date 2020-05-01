@@ -1,0 +1,38 @@
+body {
+  background-color: beige;
+}
+
+.flex-container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+  border: 2px dashed black;
+}
+
+.flex-item {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  font-size: 60px;
+  font-family: georgia;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  margin: 0 10px;
+  text-align: center;
+  /* flex-grow: 1; */
+}
+
+.item1 {
+  /* align-self: flex-start; */
+}
+
+.item2 {
+  /* flex-grow: 2; */
+}
+
+.item3{
+  /* align-self: flex-end; */
+}
